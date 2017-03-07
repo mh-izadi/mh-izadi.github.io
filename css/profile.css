@@ -1,0 +1,103 @@
+* {
+  padding: 0px;
+  margin: 0px; }
+
+body .cover {
+  padding: 0px;
+  margin: 0px;
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+  background-image: url("../images/cover.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+body .main-content {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: whitesmoke; }
+  body .main-content:after {
+    content: "";
+    display: table;
+    clear: both; }
+  body .main-content .profile-span {
+    display: inline-block;
+    float: left;
+    width: 68%;
+    position: relative;
+    top: -150px; }
+    @media screen and (max-width: 720px) {
+      body .main-content .profile-span {
+        width: 100%; } }
+    body .main-content .profile-span .area {
+      background-color: white;
+      width: 95%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+      border: 1px solid lightgrey; }
+    body .main-content .profile-span .profile-picture {
+      overflow: hidden;
+      border-radius: 50%;
+      height: 130px;
+      width: 100px;
+      margin: 0px auto;
+      margin-bottom: 30px;
+      border: 4px solid white; }
+    body .main-content .profile-span .introduction h1 {
+      font-size: 1.5rem; }
+    body .main-content .profile-span .introduction p {
+      text-align: center; }
+    body .main-content .profile-span .resume {
+      width: 95%; }
+      body .main-content .profile-span .resume .experience {
+        margin-top: 5px; }
+        body .main-content .profile-span .resume .experience .image {
+          float: right;
+          margin-left: 5px;
+          width: 55px;
+          height: 55px; }
+        body .main-content .profile-span .resume .experience .experience-information {
+          border-bottom: 1px solid lightgray;
+          direction: rtl;
+          margin-right: 66px; }
+          body .main-content .profile-span .resume .experience .experience-information p {
+            padding: 0; }
+      body .main-content .profile-span .resume:after {
+        content: "";
+        display: table;
+        clear: both; }
+  body .main-content .sidebar-right {
+    display: inline-block;
+    width: 25%;
+    height: 500px;
+    border-radius: 5%;
+    background-color: lightgrey;
+    float: right;
+    margin-right: 4%;
+    margin-top: 2rem; }
+    @media screen and (max-width: 720px) {
+      body .main-content .sidebar-right {
+        display: none; } }
+body footer {
+  width: 100%;
+  height: 100px;
+  background-color: darkmagenta; }
+
+p {
+  padding: 3px;
+  text-align: right;
+  font-family: "B Koodak";
+  font-size: 0.8rem; }
+
+h1 {
+  font-family: "B Koodak";
+  text-align: center;
+  font-size: 1rem; }
+
+img {
+  height: 100%;
+  width: 100%; }
+
+/*# sourceMappingURL=profile.css.map */

@@ -1,0 +1,106 @@
+
+*
+  padding: 0px
+  margin: 0px
+body
+  .cover
+    padding: 0px
+    margin: 0px
+    height: 300px
+    width: 100%
+    overflow: hidden
+    background-image: url("../images/cover.jpg")
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+  .main-content
+    width: 85%
+    margin-left: auto
+    margin-right: auto
+    background-color: whitesmoke
+    &:after
+      content: ""
+      display: table
+      clear: both
+    .profile-span
+      display: inline-block
+      float: left
+      width: 68%
+      position: relative
+      top: -150px
+      @media screen and (max-width: 720px)
+        width: 100%
+      .area
+        background-color: white
+        width: 95%
+        //height: 300px
+        margin-left: auto
+        margin-right: auto
+        margin-bottom: 10px
+        border: 1px solid lightgrey
+      .profile-picture
+        overflow: hidden
+        border-radius: 50%
+        height: 130px
+        width: 100px
+        margin: 0px auto
+        margin-bottom: 30px
+        border: 4px solid white
+
+      .introduction
+        h1
+          font-size: 1.5rem
+        p
+          text-align: center
+      .resume
+        width: 95%
+        .experience
+          margin-top: 5px
+          .image
+            float: right
+            margin-left: 5px
+            width: 55px
+            height: 55px
+          .experience-information
+            border-bottom: 1px solid lightgray
+            direction: rtl
+            margin-right: 66px
+            p
+              padding: 0
+        &:after
+          content: ""
+          display: table
+          clear: both
+    .sidebar-right
+      display: inline-block
+      width: 25%
+      height: 500px
+      border-radius: 5%
+      background-color: lightgrey
+      float: right
+      margin-right: 4%
+      margin-top: 2rem
+      @media screen and (max-width: 720px)
+        display: none
+  footer
+    width: 100%
+    height: 100px
+    background-color: darkmagenta
+
+p
+  padding: 3px
+  text-align: right
+  font-family: "B Koodak"
+  font-size: 0.8rem
+
+h1
+  font-family: "B Koodak"
+  text-align: center
+  font-size: 1rem
+
+//.image
+//  border: 4px solid white
+
+img
+  height: 100%
+  width: 100%

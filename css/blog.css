@@ -1,0 +1,40 @@
+* {
+  padding: 0px;
+  margin: 0px; }
+
+body {
+  padding: 0px;
+  height: 100%;
+  width: 100%; }
+  body header {
+    padding: 0px;
+    margin: 0px;
+    height: 300px;
+    width: 100%;
+    overflow: hidden; }
+    body header nav {
+      height: 40px;
+      width: 100%;
+      background-color: #283E4A;
+      position: fixed;
+      z-index: 4; }
+    body header div.nav-clear {
+      height: 20px;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.4);
+      position: fixed;
+      margin-top: 40px;
+      z-index: 4; }
+    body header div.cover {
+      background-image: url("../img/cover.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-color: aliceblue;
+      width: 100%;
+      height: 100%; }
+
+/*# sourceMappingURL=blog.css.map */
