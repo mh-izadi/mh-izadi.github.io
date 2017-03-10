@@ -24,9 +24,12 @@ body .main-div {
     clear: both; }
 body .column {
   float: left;
-  width: 23%;
+  width: 24%;
   margin-left: 5px;
   margin-right: 5px; }
+  @media screen and (max-width: 720px) {
+    body .column {
+      width: 90%; } }
   body .column .post {
     background-color: white;
     margin-left: auto;
@@ -50,10 +53,14 @@ body .column {
       width: 40px;
       height: 40px; }
     body .column .post .information-uploader .information-user {
-      margin-top: auto; }
+      padding-top: 10px;
+      font-family: "B Homa"; }
     body .column .post .information-text {
-      direction: rtl;
-      font-size: 0.7em; }
+      font-size: 0.8em; }
+    body .column .post .information-date {
+      font-family: "B Homa";
+      text-align: left;
+      margin-left: 20px; }
 
 img {
   width: 100%;
@@ -62,11 +69,18 @@ img {
 p {
   direction: rtl;
   font-family: "B Koodak";
-  margin-right: 10px; }
+  margin-right: 10px;
+  margin-left: 5px; }
+  @media screen and (max-width: 720px) {
+    p {
+      font-size: 0.7em; } }
 
 h1 {
-  margin-right: 5px;
+  margin-right: 7px;
   direction: rtl;
-  font-family: "B Koodak"; }
+  font-family: "B Homa"; }
+  @media screen and (max-width: 720px) {
+    h1 {
+      font-size: 0.9em; } }
 
 /*# sourceMappingURL=blog.css.map */
