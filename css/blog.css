@@ -13,7 +13,6 @@ body .cover {
   background-position: center;
   background-size: cover; }
 body .main-div {
-  width: 80%;
   padding-top: 10px;
   margin-left: auto;
   margin-right: auto;
