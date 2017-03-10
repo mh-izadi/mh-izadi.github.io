@@ -26,9 +26,12 @@ body .column {
   width: 24%;
   margin-left: 5px;
   margin-right: 5px; }
+  @media screen and (min-width: 720px) and (max-width: 1080px) {
+    body .column {
+      width: 31%; } }
   @media screen and (max-width: 720px) {
     body .column {
-      width: 90%; } }
+      width: 95%; } }
   body .column .post {
     background-color: white;
     margin-left: auto;
