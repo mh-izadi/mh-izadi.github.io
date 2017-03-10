@@ -1,0 +1,74 @@
+*
+  padding: 0px
+  margin: 0px
+body
+  .cover
+    padding: 0px
+    margin: 0px
+    height: 250px
+    width: 100%
+    overflow: hidden
+    background-image: url("../images/cover.jpg")
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+  .main-div
+    margin-top: 20px
+    .left
+      .container
+        width: 45%
+        border-right: 10px solid lightgrey
+        .post
+          background-color: white
+          //height: 300px
+          //margin-left:
+          margin-right: 15px
+          margin-bottom: 10px
+          border: 1px solid lightgrey
+          .image
+            margin-left: 5px
+            margin-right: 5px
+          .information-uploader
+            &:after
+              content: ""
+              display: table
+              clear: both
+            .information-image
+              overflow: hidden
+              border-radius: 50%
+              border: 4px solid white
+              float: right
+              margin-left: 5px
+              margin-right: 5px
+              width: 40px
+              height: 40px
+            .information-user
+              padding-top: 10px
+              font-family: "B Homa"
+          .information-text
+            font-size: 0.8em
+          //font-family: Nazanin
+          .information-date
+            font-family: "B Homa"
+            text-align: left
+            margin-left: 20px
+    .right
+      width: 45%
+img
+  width: 100%
+  height: 100%
+
+p
+  direction: rtl
+  font-family: "B Koodak"
+  margin-right: 10px
+  margin-left: 5px
+  @media screen and (max-width: 720px)
+    font-size: 0.7em
+
+h1
+  margin-right: 7px
+  direction: rtl
+  font-family: "B Homa"
+  @media screen and (max-width: 720px)
+    font-size: 0.9em4
