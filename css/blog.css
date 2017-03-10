@@ -2,39 +2,71 @@
   padding: 0px;
   margin: 0px; }
 
-body {
+body .cover {
   padding: 0px;
-  height: 100%;
-  width: 100%; }
-  body header {
-    padding: 0px;
-    margin: 0px;
-    height: 300px;
-    width: 100%;
-    overflow: hidden; }
-    body header nav {
-      height: 40px;
-      width: 100%;
-      background-color: #283E4A;
-      position: fixed;
-      z-index: 4; }
-    body header div.nav-clear {
-      height: 20px;
-      width: 100%;
-      background-color: rgba(0, 0, 0, 0.4);
-      position: fixed;
-      margin-top: 40px;
-      z-index: 4; }
-    body header div.cover {
-      background-image: url("../img/cover.jpg");
-      background-repeat: no-repeat;
-      background-position: center;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-      background-color: aliceblue;
-      width: 100%;
-      height: 100%; }
+  margin: 0px;
+  height: 250px;
+  width: 100%;
+  overflow: hidden;
+  background-image: url("../images/cover.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+body .main-div {
+  width: 80%;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: whitesmoke; }
+  body .main-div:after {
+    content: "";
+    display: table;
+    clear: both; }
+body .column {
+  float: left;
+  width: 23%;
+  margin-left: 5px;
+  margin-right: 5px; }
+  body .column .post {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: 1px solid lightgrey; }
+    body .column .post .image {
+      margin-left: 5px;
+      margin-right: 5px; }
+    body .column .post .information-uploader:after {
+      content: "";
+      display: table;
+      clear: both; }
+    body .column .post .information-uploader .information-image {
+      overflow: hidden;
+      border-radius: 50%;
+      border: 4px solid white;
+      float: right;
+      margin-left: 5px;
+      margin-right: 5px;
+      width: 40px;
+      height: 40px; }
+    body .column .post .information-uploader .information-user {
+      margin-top: auto; }
+    body .column .post .information-text {
+      direction: rtl;
+      font-size: 0.7em; }
+
+img {
+  width: 100%;
+  height: 100%; }
+
+p {
+  direction: rtl;
+  font-family: "B Koodak";
+  margin-right: 10px; }
+
+h1 {
+  margin-right: 5px;
+  direction: rtl;
+  font-family: "B Koodak"; }
 
 /*# sourceMappingURL=blog.css.map */

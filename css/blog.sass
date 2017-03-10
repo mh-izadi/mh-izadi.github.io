@@ -1,0 +1,72 @@
+*
+  padding: 0px
+  margin: 0px
+body
+  .cover
+    padding: 0px
+    margin: 0px
+    height: 250px
+    width: 100%
+    overflow: hidden
+    background-image: url("../images/cover.jpg")
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+  .main-div
+    width: 80%
+    padding-top: 10px
+    margin-left: auto
+    margin-right: auto
+    background-color: whitesmoke
+    &:after
+      content: ""
+      display: table
+      clear: both
+  .column
+    float: left
+    width: 23%
+    margin-left: 5px
+    margin-right: 5px
+    .post
+      background-color: white
+      //height: 300px
+      margin-left: auto
+      margin-right: auto
+      margin-bottom: 10px
+      border: 1px solid lightgrey
+      .image
+        margin-left: 5px
+        margin-right: 5px
+      .information-uploader
+        &:after
+          content: ""
+          display: table
+          clear: both
+        .information-image
+          overflow: hidden
+          border-radius: 50%
+          border: 4px solid white
+          float: right
+          margin-left: 5px
+          margin-right: 5px
+          width: 40px
+          height: 40px
+        .information-user
+          //line-height: 5px
+          margin-top: auto
+      .information-text
+        direction: rtl
+        font-size: 0.7em
+img
+  width: 100%
+  height: 100%
+
+p
+  direction: rtl
+  font-family: "B Koodak"
+  margin-right: 10px
+
+h1
+  margin-right: 5px
+  direction: rtl
+  font-family: "B Koodak"
